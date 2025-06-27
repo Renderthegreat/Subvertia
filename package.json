@@ -1,0 +1,32 @@
+{
+  "name": "subvertia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brendan Lucas",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.3",
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "dotenv": "^16.6.0",
+    "fastify": "^5.4.0",
+    "fs-extra": "^11.3.0",
+    "module-alias": "^2.2.3",
+    "ollama": "^0.5.16",
+    "toml": "^3.0.0"
+  },
+  "_moduleAliases": {
+    "~": "dist"
+  },
+  "_moduleDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "@types/cheerio": "^1.0.0",
+    "@types/fs-extra": "^11.0.4"
+  }
+}
